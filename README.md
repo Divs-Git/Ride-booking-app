@@ -10,13 +10,13 @@ This project follows a distributed microservices architecture with 7+ independen
 
 | Service Name       | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
-| [Auth Service](./auth-service)         | Handles user and driver authentication using JWT.                     |
+| [Auth Service](https://github.com/Divs-Git/UberProject-AuthService)         | Handles user and driver authentication using JWT.                     |
 | [Booking Service](https://github.com/Divs-Git/UberProject-BookingService)   | Manages ride creation, driver assignment, and ride status updates.   |
-| [Location Service](./location-service) | Updates and fetches live driver location using Redis GEO.            |
-| [Socket Service](./socket-service)     | Handles real-time communication using STOMP WebSockets.              |
-| [Review Service](./review-service)     | Manages CRUD for ride reviews.                                       |
-| [Entity Service](./entity-service)     | Contains shared DTOs, entity models, and enums used across services. |
-| [Eureka Service](./eureka-service)     | Service discovery server for registering all microservices.          |
+| [Location Service](https://github.com/Divs-Git/UberProject-LocationService) | Updates and fetches live driver location using Redis GEO.            |
+| [Socket Service](https://github.com/Divs-Git/SocketServerSpringBoot)     | Handles real-time communication using STOMP WebSockets.              |
+| [Review Service](https://github.com/Divs-Git/UberProject-ReviewService)     | Manages CRUD for ride reviews.                                       |
+| [Entity Service](https://github.com/Divs-Git/UberProject-EntityService)     | Contains shared DTOs, entity models, and enums used across services. |
+| [Eureka Service](https://github.com/Divs-Git/UberProject-ServiceDiscovery)     | Service discovery server for registering all microservices.          |
 
 ---
 
