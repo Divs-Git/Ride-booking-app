@@ -11,7 +11,7 @@ This project follows a distributed microservices architecture with 7+ independen
 | Service Name       | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
 | [Auth Service](./auth-service)         | Handles user and driver authentication using JWT.                     |
-| [Booking Service](./booking-service)   | Manages ride creation, driver assignment, and ride status updates.   |
+| [Booking Service](https://github.com/Divs-Git/UberProject-BookingService)   | Manages ride creation, driver assignment, and ride status updates.   |
 | [Location Service](./location-service) | Updates and fetches live driver location using Redis GEO.            |
 | [Socket Service](./socket-service)     | Handles real-time communication using STOMP WebSockets.              |
 | [Review Service](./review-service)     | Manages CRUD for ride reviews.                                       |
